@@ -31,8 +31,8 @@ Add this to the manifest.json file:
 }
 ```
 
-## Contact Compute team
-For security reasons, all the repos that can be run on CyberGIS compute must be verified by the Compute team. For this example, we have already verified your repo, but ordinarily you would need to reach out at this point in the process.
+## Contact CyberGIS team
+For security reasons, all the repos that can be run on CyberGIS compute must be verified by the CyberGIS team. For this example, we have already verified your repo, but ordinarily you would need to reach out at this point in the process.
 
 ## Run your code!
 Now, you can head over to CyberGISX to run your code. Make a new notebook and add this code
@@ -40,7 +40,7 @@ Now, you can head over to CyberGISX to run your code. Make a new notebook and ad
 Cell 1:
 ```
 from cybergis_compute_client import CyberGISCompute
-cybergis = CyberGISCompute(url="cgjobsup.dev.cigi.illinois.edu", isJupyter=True, protocol="HTTPS", port=443, suffix="v2")
+cybergis = CyberGISCompute(url="cgjobsup-dev.cigi.illinois.edu", isJupyter=True, protocol="HTTPS", port=443, suffix="v2")
 ```
 Cell 2:
 ```
